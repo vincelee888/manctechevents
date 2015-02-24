@@ -20,27 +20,18 @@
   flex-flow: column wrap
 }
 
-header,
-footer {
+body > header,
+body > footer {
   padding: 10px 15px;
-  height: 60px;
 }
 
 /* Custom page header */
-header {
+body > header {
   border-bottom: 1px solid #e5e5e5;
 }
 
-/* Make the masthead heading the same height as the navigation */
-header h3 {
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: 40px;
-  padding-bottom: 19px;
-}
-
 /* Custom page footer */
-footer {
+body > footer {
   height: 50px;
   padding-top: 20px;
   color: #777;
@@ -54,15 +45,4 @@ main {
   .lh-display(flex);
   .lh-justify-content(center);
   .lh-align-items(center);
-}
-
-/* Main marketing message and sign up button */
-.jumbotron {
-  text-align: center;
-  margin: 10px;
-}
-
-.jumbotron .btn {
-  font-size: 21px;
-  padding: 14px 24px;
 }
